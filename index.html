@@ -11,7 +11,7 @@
         <a-assets>
             <a-asset-item id="exempel" src="./exempel.glb"></a-asset-item>
         </a-assets>
-        <a-entity gltf-model="#exempel" position="0 0 -105"></a-entity>
+        <a-entity gltf-model="#exempel"></a-entity>
 
         <a-marker-camera preset='hiro'></a-marker-camera>
       </a-scene>
@@ -21,7 +21,7 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
     
-    <a-box></a-box>
+  <a-entity gltf-model="./exempel.gltf"></a-entity>
     <a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
 </body>
