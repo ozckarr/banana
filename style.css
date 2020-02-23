@@ -1,0 +1,9 @@
+body{
+    margin : 0px;
+    overflow: hidden;
+    color: blueviolet;
+}
+
+#arjsDebugUIContainer span{
+display: none;
+}
